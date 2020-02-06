@@ -104,7 +104,7 @@ function rgb2html($r, $g = -1, $b = -1) {
 }
 
 // Processes the image with parameters given
-function imageProcess($picture, $type, $format, $width, $height, $newW, $newH, $imgW, $imgH, $crop, $id, $enlarge, $format, $bgColor, $alpha, $filename, $quality, $gray) {
+function imageProcess($picture, $type, $format, $width, $height, $newW, $newH, $imgW, $imgH, $crop, $id, $enlarge, $bgColor, $alpha, $filename, $quality, $gray) {
     
     // Create a new image and load the file
     $bg  = html2rgb($bgColor);
